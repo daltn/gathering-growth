@@ -2,21 +2,25 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
+import label from '../images/white-label.jpg'
 
 const HeaderWrapper = styled.div`
-  background: #9bf7f2;
+  background: #0b0b0b;
   margin-bottom: 1.45rem;
+  img {
+    margin-bottom: 0;
+  }
+`
+
+const HeaderContainer = styled.div`
+  margin: 0 auto;
+  maxwidth: 960px;
+  padding: 1rem;
 `
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    <HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -25,10 +29,16 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          <img
+            style={{
+              width: '100px',
+            }}
+            src={label}
+            alt="twelves"
+          />{' '}
         </Link>
       </h1>
-    </div>
+    </HeaderContainer>
   </HeaderWrapper>
 )
 
