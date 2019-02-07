@@ -1,5 +1,5 @@
 ---
-path: '/first-post'
+slug: '/first-post'
 title: 'Our First Post'
 date: '2019-01-12'
 ---
