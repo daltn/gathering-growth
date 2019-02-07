@@ -6,7 +6,7 @@ import label from '../images/white-label.jpg'
 
 const HeaderWrapper = styled.div`
   background: #0b0b0b;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
   img {
     margin-bottom: 0;
   }
