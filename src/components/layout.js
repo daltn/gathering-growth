@@ -25,7 +25,7 @@ const Layout = ({ children, location }) => (
             description
           }
         }
-        file(relativePath: { regex: "/label/" }) {
+        file(relativePath: { regex: "/molecular/" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid
@@ -38,7 +38,12 @@ const Layout = ({ children, location }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         {location.pathname === '/' && (
-          <Img fluid={data.file.childImageSharp.fluid} />
+          <Img
+            style={{
+              width: '300px',
+            }}
+            fluid={data.file.childImageSharp.fluid}
+          />
         )}
 
         <MainLayout>

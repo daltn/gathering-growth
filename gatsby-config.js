@@ -3,9 +3,11 @@ module.exports = {
     title: `twelves`,
     description: `A site for archiving typography found on records for those who know what's good. `,
     author: `@gatsbyjs`,
+    siteUrl: 'https://elastic-brahmagupta-1419bc.netlify.com/',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
