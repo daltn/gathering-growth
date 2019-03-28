@@ -12,7 +12,7 @@ const LISTING_QUERY = graphql`
         node {
           excerpt
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MM-DD-YYYY")
             title
             slug
           }

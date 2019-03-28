@@ -3,7 +3,7 @@ module.exports = {
     title: `Gathering Growth`,
     description: `United States Champion Tree Archive `,
     author: `@daltonsaffe`,
-    siteUrl: 'https://elastic-brahmagupta-1419bc.netlify.com/',
+    siteUrl: 'https://dreamy-jepsen-7c9220.netlify.com/',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

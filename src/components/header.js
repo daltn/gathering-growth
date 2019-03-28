@@ -2,7 +2,6 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
-import label from '../images/white-label.jpg'
 
 const HeaderWrapper = styled.div`
   background: #0b0b0b;
@@ -29,13 +28,6 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <img
-            style={{
-              width: '100px',
-            }}
-            src={label}
-            alt="twelves"
-          />{' '}
           {siteTitle}
         </Link>
       </h1>
