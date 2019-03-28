@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `twelves`,
-    description: `A site for archiving typography found on records for those who know what's good. `,
-    author: `@gatsbyjs`,
+    title: `Gathering Growth`,
+    description: `United States Champion Tree Archive `,
+    author: `@daltonsaffe`,
     siteUrl: 'https://elastic-brahmagupta-1419bc.netlify.com/',
   },
   plugins: [
