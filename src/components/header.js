@@ -36,6 +36,7 @@ const Header = ({ siteTitle }) => (
             src={label}
             alt="twelves"
           />{' '}
+          {siteTitle}
         </Link>
       </h1>
     </HeaderContainer>
