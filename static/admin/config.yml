@@ -13,11 +13,7 @@ collections:
     create: true
     slug: '{{slug}}'
     fields:
-      - {
-          label: 'National Champion',
-          name: 'nationalChampion',
-          widget: 'string',
-        }
+      - { label: 'National Champion', name: 'title', widget: 'string' }
       - { label: 'Common Name', name: 'commonName', widget: 'string' }
       - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Year Crowned', name: 'crowned', widget: 'string' }
