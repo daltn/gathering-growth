@@ -1,7 +1,6 @@
 backend:
-  name: github
+  name: git-gateway
   branch: master
-  repo: daltn/gathering-growth
 
 media_folder: 'static/img'
 public_folder: '/img'
