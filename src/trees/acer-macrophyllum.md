@@ -11,7 +11,7 @@ total-af-points: '605'
 image-01: /img/acer_macrophyllum_01.jpg
 image-02: /img/acer_macrophyllum_02.jpg
 image-03: /img/acer_macrophyllum_03.jpg
-image-04: /img/acer_macrophyllum_03.jpg
+image-04: /img/acer_macrophyllum_04.jpg
 extra: >-
   <iframe width="100%" height="166" scrolling="no" frameborder="no"
   allow="autoplay"
