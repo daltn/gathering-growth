@@ -7,9 +7,9 @@ media_folder: 'static/img'
 public_folder: '/img'
 
 collections:
-  - name: 'team'
-    label: 'Team'
-    folder: 'src/team'
+  - name: 'trees'
+    label: 'Trees'
+    folder: 'src/trees'
     create: true
     slug: '{{slug}}'
     fields:
@@ -18,4 +18,8 @@ collections:
       - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Year Crowned', name: 'crowned', widget: 'string' }
       - { label: 'Year Photographed', name: 'photographed', widget: 'string' }
-      - { label: 'Bio', name: 'bio', widget: 'markdown' }
+      - { label: Image-01, name: image-01, widget: image }
+      - { label: Image-02, name: image-02, widget: image }
+      - { label: Image-03, name: image-03, widget: image }
+      - { label: Image-04, name: image-04, widget: image }
+      - { label: 'Extra', name: 'extra', widget: 'markdown' }

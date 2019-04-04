@@ -11,7 +11,7 @@ const MainLayout = styled.main`
   max-width: 90%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 2fr;
   grid-gap: 40px;
 `
 
