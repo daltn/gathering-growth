@@ -16,7 +16,14 @@ collections:
           label: 'Slug',
           name: 'slug',
           widget: string,
-          hint: 'Give a unique URL slug for the page starting with a forward slash and no spaces only - allowed. If tree names overlap add 02 at the end. For example: acer-macrophyllum-02',
+          hint: 'Give a unique URL slug for the page, no spaces only - allowed. If tree names overlap add 02 at the end. For example: acer-macrophyllum-02',
+        }
+      - {
+          label: 'Date',
+          name: 'date',
+          widget: 'date',
+          default: '',
+          format: 'MM-DD-YYYY',
         }
       - { label: 'National Champion', name: 'title', widget: 'string' }
       - { label: 'Common Name', name: 'common-name', widget: 'string' }
