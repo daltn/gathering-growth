@@ -20,4 +20,3 @@ extra: >-
 
   ![acer-05](/img/acer_macrophyllum_05.jpg "acer-05")
 ---
-

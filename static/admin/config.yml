@@ -8,11 +8,12 @@ public_folder: '/img'
 collections:
   - name: 'trees'
     label: 'Trees'
-    folder: 'src/trees'
+    folder: 'src/posts'
     create: true
     slug: '{{slug}}'
     fields:
       - { label: 'National Champion', name: 'title', widget: 'string' }
+      - { label: 'slug', name: 'slug', widget: 'hidden', default: '{{slug}}' }
       - { label: 'Common Name', name: 'common-name', widget: 'string' }
       - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Year Crowned', name: 'crowned', widget: 'string' }
