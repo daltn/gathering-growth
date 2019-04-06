@@ -13,7 +13,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - { label: 'National Champion', name: 'title', widget: 'string' }
-      - { label: 'slug', name: 'slug', widget: 'hidden', default: '{{slug}}' }
+      - { label: 'slug', name: 'slug', widget: 'hidden', default: { { slug } } }
       - { label: 'Common Name', name: 'common-name', widget: 'string' }
       - {
           label: 'Location',
