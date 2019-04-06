@@ -12,20 +12,14 @@ collections:
     create: true
     slug: '{{fields.slug}}'
     fields:
+      - { label: 'National Champion', name: 'title', widget: 'string' }
       - {
           label: 'Slug',
           name: 'slug',
           widget: string,
           hint: 'Give a unique URL slug for the page, no spaces only - allowed. If tree names overlap add 02 at the end. For example: acer-macrophyllum-02',
         }
-      - {
-          label: 'Date',
-          name: 'date',
-          widget: 'date',
-          default: '',
-          format: 'MM-DD-YYYY',
-        }
-      - { label: 'National Champion', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'date', format: 'MM-DD-YYYY' }
       - { label: 'Common Name', name: 'common-name', widget: 'string' }
       - { label: 'Location', name: 'location', widget: 'string' }
       - { label: 'Year Crowned', name: 'crowned', widget: 'string' }
