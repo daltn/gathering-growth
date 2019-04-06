@@ -10,29 +10,19 @@ collections:
     label: 'Trees'
     folder: 'src/posts'
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     fields:
+      - {
+          label: 'Slug',
+          name: 'slug',
+          widget: string,
+          hint: 'Give a unique URL slug for the page starting with a forward slash and no spaces only - allowed. If tree names overlap add 02 at the end. For example: acer-macrophyllum-02',
+        }
       - { label: 'National Champion', name: 'title', widget: 'string' }
-      - { label: 'Slug', name: 'slug', default: '{{slug}}' }
       - { label: 'Common Name', name: 'common-name', widget: 'string' }
-      - {
-          label: 'Location',
-          name: 'location',
-          widget: 'string',
-          required: false,
-        }
-      - {
-          label: 'Year Crowned',
-          name: 'crowned',
-          widget: 'string',
-          required: false,
-        }
-      - {
-          label: 'Year Photographed',
-          name: 'photographed',
-          widget: 'string',
-          required: false,
-        }
+      - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: 'Year Crowned', name: 'crowned', widget: 'string' }
+      - { label: 'Year Photographed', name: 'photographed', widget: 'string' }
       - {
           label: 'Circumference',
           name: 'circumference',
